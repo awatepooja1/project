@@ -1,4 +1,4 @@
-package com.basic.initializer.entity;
+package com.basic.initializer.model;
 
 public enum JavaVersion {
 
