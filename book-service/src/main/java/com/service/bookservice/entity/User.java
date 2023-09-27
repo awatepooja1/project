@@ -1,4 +1,4 @@
-package com.online.library.entity;
+package com.service.bookservice.entity;
 
 import java.io.Serializable;
 
@@ -27,7 +27,7 @@ public User(String userName, String password, String role) {
 }
 
 public User() {
-	// TODO Auto-generated constructor stub
+	
 }
 
 public String getUserName() {
@@ -54,4 +54,10 @@ public String getRole() {
 public void setRole(String role) {
 	this.role = role;
 }
+
+@Override
+public String toString() {
+	return "User [userName=" + userName + ", password=" + password + ", role=" + role + "]";
+}
+
 }

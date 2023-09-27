@@ -1,4 +1,4 @@
-package com.online.library.entity;
+package com.service.bookservice.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
+@Entity(name = "book")
 @Table(name = "books")
 public class Book {
 	
@@ -28,9 +28,13 @@ public class Book {
 	
 
 	public Book(String name, String genre) {
-		
+		super();
 		this.name = name;
 		this.genre = genre;
+	}
+
+	public Book() {
+		
 	}
 
 	public int getId() {

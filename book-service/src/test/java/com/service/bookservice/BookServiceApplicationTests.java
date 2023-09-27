@@ -1,16 +1,13 @@
-package com.online.library;
+package com.service.bookservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LibraryApplicationTests {
+class BookServiceApplicationTests {
 
-	
-	  @Test 
-	  void contextLoads(){
-		  
-	  }
-	 
+	@Test
+	void contextLoads() {
+	}
 
 }

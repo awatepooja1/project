@@ -34,7 +34,7 @@ public class UserControllerTest {
 	@BeforeEach
 	void init() {
 
-		this.user = new User("q", "q");
+		this.user = new User("q", "q","q");
 	}
 
 	@Test
